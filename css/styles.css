@@ -12,7 +12,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     background: linear-gradient(
-        0deg,
+        -45deg,
         rgb(210, 200, 220),
         rgb(220, 235, 235)
 
@@ -32,6 +32,9 @@ h2 {
 h3 {
     font-size: 3.2rem;
 }
+h4 {
+    font-size: 2.3rem;
+}
 
 a {
     color: #000;
@@ -43,6 +46,15 @@ img {
 }
 
 /*utilities*/
+
+
+h1 a {
+    color: rgb(50, 40, 70);
+}
+
+h1 a:hover{
+    color: rgb(90, 80, 110);    
+}
 
 .no-margin {
     margin: 0;
@@ -64,7 +76,9 @@ img {
 .logo {
     margin: 2rem auto;
     padding: 0 3rem;
+    margin-bottom: 10rem;
 }
+
 
 .rcp {
     padding-left: 2rem;
@@ -72,6 +86,19 @@ img {
 
 .h2t{
     margin: 10rem 0 3rem 0;
+    background: linear-gradient(
+        90deg,
+        rgb(220, 235, 235) 60%,
+        rgb(230, 240, 235)
+
+    );
+    padding: 1.4rem 0;
+    border-radius: 0.3rem;
+    max-width: 60%;
+    margin: 0 auto;
+    color: rgb(50, 40, 70);
+
+
 }
 
 .container {
@@ -137,4 +164,18 @@ img {
     text-align: center;
     font-size: 1.8rem;
     padding: 1rem 0 2.5rem 0;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.img {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+li {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
 }
